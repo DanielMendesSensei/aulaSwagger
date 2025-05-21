@@ -1,8 +1,10 @@
 import express from "express";
 import router from "./routes/user.route.js";
+import dotenv from "dotenv";
 import { swaggerSpec, swaggerUiServe, swaggerUiSetup } from "./swagger.js";
 import cors from "cors";
 
+dotenv.config();
 const PORT = 3004;
 const app = express();
 const cors_config = { origin: "http://localhost:5501" };
