@@ -1,0 +1,21 @@
+site_name: Projeto Final M4
+nav:
+  - Início: index.md
+  - Sobre: sobre.md
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    primary: indigo
+    accent: indigo
+    features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - search
